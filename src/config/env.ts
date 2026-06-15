@@ -14,4 +14,5 @@ export const config = {
   nodeEnv: getEnv('NODE_ENV', 'development'),
   port: parseInt(getEnv('PORT', '3000'), 10),
   databaseUrl: getEnv('DATABASE_URL'),
+  corsOrigin: getEnv('CORS_ORIGIN', '*'),
 };
